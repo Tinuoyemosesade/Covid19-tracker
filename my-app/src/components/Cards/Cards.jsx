@@ -13,7 +13,7 @@ const Cards =(props) => {
                        <Typography color="textSecondary" gutterBottom>Infected</Typography>
                        <Typography variant="h5">REAL DATA</Typography>
                        <Typography color="textSecondary">REAL DATE</Typography>
-                       <Typography  variant="body2">Number of active cases of COVID-19</Typography>
+                       <Typography  variant="textSecondary" gutterBottom>Infected</Typography>
                    </CardContent>
                </Grid>
            </Grid>
