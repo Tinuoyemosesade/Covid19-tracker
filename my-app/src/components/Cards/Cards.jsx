@@ -16,7 +16,24 @@ const Cards =(props) => {
                        <Typography    variant="textSecondary" gutterBottom>Infected</Typography>
                    </CardContent>
                </Grid>
+               <Grid item component={Card}>
+                   <CardContent>
+                       <Typography color="textSecondary" gutterBottom>Infected</Typography>
+                       <Typography variant="h5">REAL DATA</Typography>
+                       <Typography color="textSecondary">REAL DATE</Typography>
+                       <Typography    variant="textSecondary" gutterBottom>Infected</Typography>
+                   </CardContent>
+               </Grid>
+               <Grid item component={Card}>
+                   <CardContent>
+                       <Typography color="textSecondary" gutterBottom>Infected</Typography>
+                       <Typography variant="h5">REAL DATA</Typography>
+                       <Typography color="textSecondary">REAL DATE</Typography>
+                       <Typography    variant="textSecondary" gutterBottom>Infected</Typography>
+                   </CardContent>
+               </Grid>
            </Grid>
+           
 
        </div>
     )
