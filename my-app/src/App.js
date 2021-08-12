@@ -11,7 +11,7 @@ state = {
 async componentDidMount() {
   const fetchedData = await fetchData();
 
-  this.setData({data:fetchedData});
+  this.setData({data: fetchedData});
 }
   render() {
     const { data } = this.state;
