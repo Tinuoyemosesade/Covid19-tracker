@@ -23,6 +23,7 @@ class App extends React.Component {
 
     this.setState({ data, country: country });
   }
+  
 
   render() {
     const { data, country } = this.state;
